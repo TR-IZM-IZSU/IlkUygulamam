@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DataLayer">
+      <HintPath>..\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
